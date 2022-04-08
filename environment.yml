@@ -1,0 +1,15 @@
+name: faml
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip:
+    - aiocontextvars==0.2.2
+    - requests==2.22.0
+    - uvicorn==0.11.7
+    - fastapi==0.48.0
+    - numpy==1.18.1
+    - scikit-learn==0.22.1
+    - joblib==0.14.1
+    - loguru==0.4.1
+prefix: /opt/conda/envs/faml
